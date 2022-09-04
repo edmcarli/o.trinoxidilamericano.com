@@ -1,220 +1,13 @@
 /* Reset */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body, html { font-family: 'Montserrat', sans-serif !important; }
-.header {
+.menu-off-page-obg .header {
     display: none !important;
 }
 body {
 	background: #000000 url(img/bg.jpg) no-repeat 50% 0 !important;
 }
 /* Reset */
-
-/* PV Nova */
-
-section.principal-pv3{
-	background: #000000 url(img/bg-pv3.jpg) no-repeat 50% 0 !important;
-	margin-bottom: -5px;
-}
-img.potes-pv3 {
-    clear: both;
-    display: block;
-	width: 100%;
-    margin: 50px auto;
-}
-a.cta-topo-pv3, a.cta-fotos-resultados-pv3, a.cta-formula-pv3, a.cta-wpp-pv-pv3 {
-	width: 45% !important;
-	margin: 30px auto 20px auto !important;
-}
-.a.cta-ciclo  {
-	width: 100% !important;
-	margin: 30px auto 20px auto !important;
-}
-.list-left, .list-right {
-    margin: 200px 0 0 0 !important;
-}
-.list-left h3 {
-    text-align: right;
-    color: #ffffff;
-    font-weight: 600;
-    font-size: 22px;
-    margin: 30px 0;
-}
-.list-right h3 {
-    text-align: left;
-    color: #ffffff;
-    font-weight: 600;
-    font-size: 20px;
-    margin: 30px 0;
-}
-.list-left h3 svg, .list-right h3 svg {
-    margin-bottom: -5px;
-}
-section#tarja-estoque {
-    background: #F8E183;
-    padding: 10px 0;
-}
-section.tarja-estoque h1 {
-    margin: 0 290px;
-    border: dashed 2px red;
-    text-align: center;
-    padding: 10px 0;
-    font-size: 18px;
-    font-weight: 600;
-    color: red;
-    clear: both;
-    display: block;
-}
-section.principal-pv3 h2 {
-    color: #ffffff;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 25px;
-    font-weight: 700;
-}
-section.principal-pv3 h2 span {
-    color: #F8E183;
-    font-size: 40px;
-}
-section.fotos-resultados h1 {
-    color: #F8E183;
-    font-size: 40px;
-    font-weight: 800;
-    text-align: center;
-    margin: 0 0 50px 0;
-}
-/* Como usar */
-section.como-usar {
-    background: #f8e183;
-    padding: 50px 0 0 0;
-}
-section.como-usar h1 {
-    color: #000000;
-    font-size: 40px;
-    font-weight: 800;
-    text-align: center;
-    margin: 0 0 50px 0;
-}
-section.como-usar p {
-    text-align: center;
-    font-size: 19px;
-    line-height: 1.5;
-    margin-bottom: 20px;
-}
-a.cta.cta-comousar, a.cta.cta-ciclo {
-    width: 90%;
-	margin-bottom: 10px;
-}
-/* Ciclos calvice */
-section.ciclos-calvice {
-    background: #000000;
-    padding: 50px 0;
-}
-img.img-clicocalvice {
-    clear: both;
-    display: block;
-    width: 70%;
-    margin: auto;
-}
-section.ciclos-calvice h1 {
-    color: #F8E183;
-    font-size: 40px;
-    font-weight: 800;
-    text-align: center;
-    margin: 50px 0 30px 0;
-}
-section.ciclos-calvice p {
-    color: #ffffff;
-    font-size: 25px;
-    text-align: center;
-    line-height: 1.5;
-	margin: 0 0 30px 0;
-}
-/* Garantia */
-img.fotos-garantia {
-    clear: both;
-    display: block;
-    width: 70%;
-    margin: auto;
-}
-/* Frete Grátis */
-section.frete-gratis {
-    background: #f8e183;
-    padding: 50px 0 0 0;
-}
-section.frete-gratis h1 {
-    color: #000000;
-    font-size: 40px;
-    font-weight: 800;
-    text-align: center;
-	text-transform: uppercase;
-    margin: 0 0 50px 0;
-}
-section.frete-gratis p {
-    color: #000000;
-    font-size: 18px;
-    font-weight: 600;
-    text-align: center;
-    margin: 20px 0 0 0;
-}
-section.frete-gratis p strong {
-	font-size: 20px;
-    font-weight: 900;
-}
-img.frete-foto {
-    clear: both;
-    display: block;
-    width: 60%;
-    margin: auto;
-}
-img.frete-truck {
-    clear: both;
-    display: block;
-    width: 50%;
-    margin: 0 auto 30px auto;
-}
-/* Atendimento */
-section.comprar-whatsapp {
-    background: #ffffff;
-    padding: 50px 0;
-}
-img.wpp-pv.img-fluid {
-	clear: both;
-	display: block;
-    width: 130px;
-    height: 130px;
-    margin: 0 auto 35px auto;
-}
-section.comprar-whatsapp h1 {
-    color: #000000;
-    font-size: 40px;
-    font-weight: 800;
-    text-align: center;
-    margin: 0 0 50px 0;
-}
-section.comprar-whatsapp h2 {
-    color: #000000;
-    font-size: 18px;
-    font-weight: 600;
-    text-align: center;
-    margin: 50px 0 0 0;
-}
-section.comprar-whatsapp p {
-    text-align: center;
-    margin: 0;
-}
-section.comprar-whatsapp img.tarja-selos {
-    clear: both;
-    display: block;
-    width: 30%;
-    margin: 0 auto;
-}
-a.cta.cta-topo-pv3 svg {
-    margin-bottom: -10px;
-}
-a.cta-wpp-pv-pv3 svg {
-    margin-bottom: -2px !important;
-}
-/* PV Nova */
 
 /* Header */
 header.header {
@@ -309,71 +102,6 @@ section.principal p svg {
 }
 /* Principal */
 
-/* Principal PV2 */
-section.principal-pv2 {
-    background: #111827;
-}
-img.logo-branca {
-    clear: both;
-    display: block;
-    width: 35%;
-    margin: 30px auto 30px auto;
-}
-section.principal-pv2 h1 {
-    color: rgba(255,255,255,.68);
-    font-size: 19px;
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: 6px;
-    text-align: left;
-}
-section.principal-pv2 h2 {
-	color: #fff;
-    font-size: 35px;
-    font-weight: 600;
-    text-align: left;
-}
-section.principal-pv2 h3 {
-	color: #fff;
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 1.2em;
-    text-align: left;
-}
-section.principal-pv2 p {
-    text-align: center;
-    color: #ffffff;
-    fill: #ffffff;
-    margin: 0;
-    text-align: left;	
-}
-img.pote-pv2 {
-    clear: both;
-    display: block;
-    width: 80%;
-    margin: auto;
-}
-a.cta-topo-red {
-    clear: both;
-    display: block;
-    text-align: center;
-    color: #ffffff;
-    font-weight: 700;
-    font-size: 20px;
-    background: #F94845;
-    text-decoration: none;
-    padding: 20px 0;
-    width: 70%;
-    margin: 50px 0 10px 0;
-    -webkit-transition: all .4s linear;
-    -moz-transition: all .4s linear;
-    transition: all .4s linear;
-    border-radius: 100px 100px 100px 100px;
-    -moz-border-radius: 100px 100px 100px 100px;
-    -webkit-border-radius: 100px 100px 100px 100px;
-}
-/* Principal PV2 */
-
 /* Poder */
 section.poder {
     clear: both;
@@ -410,12 +138,6 @@ section.poder p {
 	margin: 0;
 }
 /* Poder */
-
-/* Poder PV2 */
-section.poder-pv2 {
-    background: #f9f9f9;
-}
-/* Poder PV2 */
 
 /* Recupere */
 section.recupere {
@@ -601,47 +323,40 @@ section.faq h1 {
 	text-align: center;
 	margin: 0 0 50px 0;
 }
+.faq-accordion {
+    clear: both;
+    display: block;
+    overflow: hidden;
+}
 .faq-item {
-    clear: both;
-    display: block;
-    overflow: hidden;
-	margin: 0 0 10px 0;
+    margin-bottom: 5px;
 }
-.accordion {
-  cursor: pointer;
-  width: 100%;
-  text-align: left;
-  outline: none;
-  font-size: 16px;
-  transition: 0.4s;
-	border: none;
+.faq-title {
+	background: #ffffff;
+	display: block;
+	cursor: pointer;
+	padding: 15px;
 	position: relative;
-    color: #000000;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 700;
-    clear: both;
-    display: block;
-    padding: 20px 20px 30px 20px;
+	text-transform: uppercase;
+	color: #000000;
+	clear: both;
+	font-size: 17px;
+	font-weight: 700;
+	-webkit-transition: all .4s linear;
+	-moz-transition: all .4s linear;
+	transition: all .4s linear;
+}
+.faq-title svg {
+    margin-bottom: -2px;
+}
+.faq-title:hover {
+	color: #000000;
+}
+.faq-content {
     background: #ffffff;
-    -webkit-transition: all .4s linear;
-    -moz-transition: all .4s linear;
-    transition: all .4s linear;
-}
-button.accordion svg {
-    margin-top: -5px;
-}
-.panel {
-    padding: 0 25px;
-    background: #fafafa;
-    color: #000000;
-    max-height: 0;
-    margin-top: -12px;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-}
-.panel p {
-    margin: 25px 0;
+	font-size: 18px;
+	display: none;
+    padding: 20px 20px 20px 20px;
 }
 /* FAQ */
 
@@ -684,6 +399,11 @@ span.arrow-down img {
 }
 .oferta-extra-item img {
 	margin-bottom: 50px;
+}
+img.img-prv {
+    clear: both;
+    display: block;
+    margin: auto;
 }
 /* Página de pote extra */
 
@@ -760,6 +480,21 @@ a.whatsapp-ft {
     width: 75px;
 	text-decoration: none;
 }
+.contato p {
+    color: #00ff00;
+    margin: 5px 0;
+    font-weight: 600;
+}
+.infos-footer p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+}
+.col-md-12.col-lg-12.col-sm-12.infos-footer {
+    margin-top: 30px;
+    clear: both;
+    display: block;
+}
 .blob {
 	background: black;
 	border-radius: 50%;
@@ -816,36 +551,15 @@ a.whatsapp-ft {
 }
 /* Rodapé */
 
+
 /* 09. Responsivo */
 @media (max-width: 800px) {
-	section.tarja-estoque h1 {
-    	margin: 0;
-	}
-	img.logo-branca {
-		width: 95%;
-	}
-	.list-left, .list-right {
-		margin: 50px 0 0 0 !important;
-	}
-	section.principal-pv3 {
-		background-size: cover !important;
-	}	
-	img.potes-pv3 {
+	img.icon-big {
 		clear: both;
 		display: block;
-		margin: 0 auto;
-		width: 75%;
-	}
-	img.pote-pv2 {
-		width: 75%;
-		margin: 50px auto 0;
+		margin: 10px auto;
+		width: 25%;
 	}	
-	.list-left h3, .list-right h3 {
-    	text-align: center;
-	}
-	section.principal-pv2 p, section.principal-pv2 h1, section.principal-pv2 h2, section.principal-pv2 h3 {
-    	text-align: center !important;
-	}
 	section.principal h1 {
 		font-size: 25px;
 		margin: 50px 0 0 0;
@@ -856,18 +570,14 @@ a.whatsapp-ft {
 	a.cta {
 		width: 100%;
 	}
-	a.cta-topo-pv3, a.cta-fotos-resultados-pv3, a.cta-formula-pv3, a.cta-wpp-pv-pv3, a.cta.cta-comousar, a.cta.cta-ciclo {
-		width: 100% !important;
-		margin: 30px auto 20px auto !important;
-	}	
-	section.poder h1, section.recupere h1, section.resultados h1, section.formula h1, section.oferta h1, section.garantia h1, section.faq h1, .potes-oferta-extra h1, .depoimentos-oferta-extra h1, section.fotos-resultados h1, section.ciclos-calvice h1, section.frete-gratis h1, section.comprar-whatsapp h1, section.como-usar h1 {
+	section.poder h1, section.recupere h1, section.resultados h1, section.formula h1, section.oferta h1, section.garantia h1, section.faq h1, .potes-oferta-extra h1, .depoimentos-oferta-extra h1 {
 		font-size: 25px;
 	}
 	img.pd-item, img.img-formula-item, img.selo-garantia {
 		width: 40%;
 		margin: 0 auto 20px auto;
 	}
-	img.tarja-selos, section.fotos-resultados img.tarja-selos, section.formula img.tarja-selos, section.comprar-whatsapp img.tarja-selos {
+	img.tarja-selos, section.fotos-resultados img.tarja-selos, section.formula img.tarja-selos {
 		width: 75%;
 	}
 	img.logo {
@@ -880,8 +590,6 @@ a.whatsapp-ft {
 		margin: 25px 0;
 	}
 	img.oferta-item {
-		clear: both;
-		display: block;
 		width: 75%;
 		margin: 40px auto;
 	}
@@ -889,13 +597,7 @@ a.whatsapp-ft {
 		width: 60%;
 		margin: 35px auto 0 auto;
 	}
-	section.garantia h2, section.comprar-whatsapp h2 {
-		margin: 35px 0 30px 0;
-		font-weight: 400;
-	}
 	img.logo-ft {
-		clear: both;
-		display: block;		
 		width: 40%;
 		margin: 0 auto 40px auto;
 	}
@@ -910,8 +612,6 @@ a.whatsapp-ft {
     	text-align: center;
 	}
 	img.pagamento, img.seguranca {
-		clear: both;
-		display: block;		
 		width: 70%;
 		margin: 0 auto 30px auto;
 	}
@@ -949,5 +649,11 @@ a.whatsapp-ft {
 		width: 15%;
 		margin: -1px auto 50px auto;
 	}
+	.potes-oferta-extra img {
+		clear: both;
+		display: block;
+		width: 85%;
+		margin: 20px auto;
+	}	
 }
 /* Responsivo */
